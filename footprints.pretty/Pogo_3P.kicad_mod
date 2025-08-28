@@ -1,0 +1,114 @@
+(footprint "Pogo_3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8.05 -6.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de068c9b-290f-447b-b8d2-32ba77bffe7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pogo_3P"
+		(at -8.05 -4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5a28b5e-4dde-4042-9975-a38337397d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c9a6ebd-978c-44dd-aa94-ac91cc1bcf95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f582f0-20c7-45ea-9432-c7bd8aa8a3a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39648f2e-b007-48c6-b585-2e2bd356eff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start 0 -0.762)
+		(mid 0.762 0)
+		(end 0 0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "515fd0f5-902d-421a-bef4-8e9c12b9dce5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8.05 -3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a54fea6e-9d5c-42e4-9812-cef7f69f4cc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "cc75eba3-c241-480d-95da-1de9fcefae8f")
+	)
+	(pad "2" smd circle
+		(at 3.81 0 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "fd79d654-0a42-4b0c-9d68-74ba138eb371")
+	)
+	(pad "3" smd circle
+		(at 6.35 0 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "1c310bbe-7518-4ba5-9800-536e2efe1a74")
+	)
+)

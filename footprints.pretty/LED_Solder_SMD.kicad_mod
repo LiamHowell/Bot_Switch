@@ -1,0 +1,116 @@
+(footprint "LED_Solder_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.524 -6.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "784ebdcb-c769-41b1-8950-84371d7f5a40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_Solder_SMD"
+		(at 1.524 -4.548 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5c54a71-34c1-4cce-a615-d53fb4e7d77a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.524 -5.548 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31da6c84-9013-4b0e-ba5c-3634e7daa024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.524 -5.548 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daecebc2-ad06-4ac4-98a6-80f742c5226a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.524 -5.548 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a13474bf-fb77-49ba-9ee8-7996583af77e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.762 2.032)
+		(end 1.016 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e77bca83-d1ef-4004-9692-39cd0501f328")
+	)
+	(fp_line
+		(start 1.016 2.032)
+		(end 1.016 -0.254)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "febd5ba5-b996-4f7e-83de-d0fe2eb3dc31")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.524 -3.048 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be22d981-c82b-4483-817f-99d2435543f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0058349a-5a52-408d-8417-7842318eb235")
+	)
+	(pad "2" smd roundrect
+		(at 3.048 0 180)
+		(size 1.5 3.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3a8f2fd1-4d06-4af7-91ef-40548925678b")
+	)
+)
