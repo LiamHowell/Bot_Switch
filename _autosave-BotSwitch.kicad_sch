@@ -981,12 +981,6 @@
 		(uuid "03803677-aea9-4478-8d95-a1943bd58a00")
 	)
 	(junction
-		(at 161.29 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22fd40e8-bcba-46e8-b22e-11db52fc0629")
-	)
-	(junction
 		(at 129.54 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1033,12 +1027,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fe8269b-ad67-4051-9c0d-84844652bf5b")
-	)
-	(junction
-		(at 161.29 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "875e2dd6-dde5-4fb4-ab5c-5454aa6c0ad2")
 	)
 	(junction
 		(at 124.46 127)
@@ -1173,16 +1161,6 @@
 			(type default)
 		)
 		(uuid "2d8a90c5-8c23-4cf7-a026-93514948813d")
-	)
-	(wire
-		(pts
-			(xy 171.45 59.69) (xy 172.72 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38bbc6f6-5e2f-4337-8d7a-f285f8440e2b")
 	)
 	(wire
 		(pts
@@ -1406,16 +1384,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 171.45 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1b113e-2253-4156-b125-1e4e8b0e671b")
-	)
-	(wire
-		(pts
 			(xy 157.48 73.66) (xy 157.48 48.26)
 		)
 		(stroke
@@ -1443,16 +1411,6 @@
 			(type default)
 		)
 		(uuid "a61133dd-f79a-4526-b283-f0f83753ccc0")
-	)
-	(wire
-		(pts
-			(xy 161.29 71.12) (xy 161.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8253aa5-bc2b-4cfb-8ee3-89fbc891b74a")
 	)
 	(wire
 		(pts
@@ -1486,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 161.29 71.12)
+			(xy 161.29 66.04) (xy 161.29 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1516,16 +1474,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 62.23) (xy 171.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66c093b-e9ba-4549-b8eb-26e1fcfb3103")
-	)
-	(wire
-		(pts
 			(xy 157.48 48.26) (xy 161.29 48.26)
 		)
 		(stroke
@@ -1546,16 +1494,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 161.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbde6b0f-7815-41de-8832-62cb48066406")
-	)
-	(wire
-		(pts
 			(xy 121.92 77.47) (xy 121.92 78.74)
 		)
 		(stroke
@@ -1563,16 +1501,6 @@
 			(type default)
 		)
 		(uuid "c70c6966-8aa5-4125-a310-1e71a9f48262")
-	)
-	(wire
-		(pts
-			(xy 171.45 57.15) (xy 171.45 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7913167-210e-4fc0-adce-c1110c222b4e")
 	)
 	(wire
 		(pts
@@ -1686,16 +1614,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 48.26) (xy 171.45 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f29a67-0793-4ba2-aa8b-1c37e92872d2")
-	)
-	(wire
-		(pts
 			(xy 161.29 48.26) (xy 161.29 49.53)
 		)
 		(stroke
@@ -1713,16 +1631,6 @@
 			(type default)
 		)
 		(uuid "efa8f97b-ac1a-49c3-9f53-e926d484c1f1")
-	)
-	(wire
-		(pts
-			(xy 161.29 48.26) (xy 171.45 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc7e7f54-ad91-4a90-8463-bb5084dfbf1b")
 	)
 	(text "Strain relief for wires"
 		(exclude_from_sim no)
@@ -2026,70 +1934,6 @@
 			(project ""
 				(path "/da45db11-0c45-407a-ae12-b9754226b3c2"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 74.93 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4660ab6d-f7b0-43e8-82d2-478075592e7a")
-		(property "Reference" "H1"
-			(at 205.74 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 203.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/da45db11-0c45-407a-ae12-b9754226b3c2"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2504,74 +2348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 177.8 59.69 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b79689bd-471b-441a-87f1-6c0ccbd257ad")
-		(property "Reference" "J4"
-			(at 180.34 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_conn"
-			(at 183.134 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:LED_Solder_SMD"
-			(at 177.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 177.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b78fd84c-7baf-4a7e-beaf-b67deebb8f40")
-		)
-		(pin "1"
-			(uuid "fe7cdcf7-c587-424e-996c-b5446994343f")
-		)
-		(instances
-			(project "BotSwitch"
-				(path "/da45db11-0c45-407a-ae12-b9754226b3c2"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 107.95 64.77 0)
 		(mirror x)
@@ -2708,76 +2484,6 @@
 			(project "BotSwitch"
 				(path "/da45db11-0c45-407a-ae12-b9754226b3c2"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d06106cd-0090-443f-9405-01264263a6eb")
-		(property "Reference" "R2"
-			(at 173.99 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 173.99 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 169.672 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd578591-6166-415f-ba54-617641b83005")
-		)
-		(pin "2"
-			(uuid "d4940d59-590e-4bb4-869f-d3f6775ebf56")
-		)
-		(instances
-			(project "BotSwitch"
-				(path "/da45db11-0c45-407a-ae12-b9754226b3c2"
-					(reference "R2")
 					(unit 1)
 				)
 			)
